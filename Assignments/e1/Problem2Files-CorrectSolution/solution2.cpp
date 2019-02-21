@@ -25,7 +25,10 @@ void closefiles (void);   /* Close all files used in program */
 # include <math.h>
 # include <stdlib.h>
 # include <string.h>
+#include <iostream>
+#include <algorithm>
 
+using namespace std;
 //----------------------------------------------------------------------------//
 //         Variable declarations                                              //
 //----------------------------------------------------------------------------//
@@ -39,7 +42,7 @@ char   outfile[40];                  /* Name of output file */
 //         Main program                                                       //
 //----------------------------------------------------------------------------//
 
-main ()
+int main ()
 {
      // Display heading
      heading ();
@@ -84,7 +87,7 @@ void openfiles ()
 {
      printf("\n Opening Input and Output image files\n");
      printf(" Enter name of *.pgm INPUT image file (example: lena.pgm) ");
-     scanf("%s",&infile);
+     scanf("%s",infile);
      
      //Check if input file exists
      if ((infptr = fopen(infile, "rb")) == NULL)
@@ -96,7 +99,7 @@ void openfiles ()
        }
      
      printf(" Enter name of *.pgm OUTPUT image file (example: lenaout.pgm) ");
-     scanf("%s",&outfile);
+     scanf("%s",outfile);
      
      //Check if output file was created succesfully
      if ((outfptr = fopen(outfile, "wb")) == NULL)
@@ -157,7 +160,7 @@ void readhdr ()
 
 void addhdr ()
 {
-     fprintf(outfptr, "P5\n%d %d\n%d\n",NCols,MRows,255);
+     fprintf(outfptr, "P5\n%d %d\n%d\n",NCols-2 ,MRows-2,255);
 } //addhdr ()
 
 //----------------------------------------------------------------------------//
@@ -167,6 +170,64 @@ void addhdr ()
 
 void userdefined ()
 {
+  unsigned char p;
+  //unsigned char calcp[(MRows-2)*(NCols-2)];
+
+	p=fgetc(infptr);
+	int i,j;
+	//Allocate a matrix
+	unsigned  char **arr = (unsigned char **)malloc(MRows * sizeof(unsigned char *)); 
+    for (i=0; i<MRows; i++) {
+    	arr[i] = (unsigned char *)malloc(NCols * sizeof(unsigned char)); 
+    }
+    // Note that arr[i][j] is same as *(*(arr+i)+j) 
+    for (i = 0; i <  MRows; i++){
+      for (j = 0; j < NCols; j++){
+       arr[i][j] = p;  
+       p=fgetc(infptr);
+      }
+    }
+    //get window
+    char win[9] = {0, 0, 0, 0, 0, 0, 0, 0, 0};
+    for (i = 1; i <  MRows-1; i++){
+      for (j = 1; j < NCols-1; j++){
+
+    
+        win[0]=arr[i-1][j-1];
+        win[1]=arr[i-1][j];
+        win[2]=arr[i-1][j+1];
+
+        win[3]=arr[i][j-1];
+        win[4]=arr[i][j];
+        win[5]=arr[i][j+1];
+        win[6]=arr[i+1][j-1];
+        win[7]=arr[i+1][j];
+        win[8]=arr[i+1][j+1];
+
+        //sort
+        sort(win, win + 9);
+        float median = 0;
+
+        if (9 % 2 != 0) {
+          median = win[9 / 2];
+        } else {
+          median = (win[(9 - 1) / 2] + win[9 / 2]) / 2.0;
+        }
+
+        //write median
+               fputc(median, outfptr);  
+
+
+
+      }
+    }
+
+
+        
+	//write on output pointer rotateLeft
+  
+    
+  
 }  // end userdefined ()
 
 //----------------------------------------------------------------------------//

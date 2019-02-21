@@ -1,8 +1,10 @@
+
+
 //----------------------------------------------------------------------------//
-// Template for reading portable gray map files (*.pgm)                       //
+// Template for reading portable color map files (*.ppm)                      //
 //                                                                            //
 //                                                RickWare                    //
-//                                                August 23, 2018             //
+//                                                January 28, 2019            //
 //                                                                            //
 //----------------------------------------------------------------------------//
 
@@ -34,13 +36,13 @@ int    MRows, NCols;                 /* Number of Rows and columns in image */
 FILE   *infptr, *outfptr, *outfptrh; /* Input and output file pointers */
 char   infile[40];                   /* Name of input file */
 char   outfile[40];                  /* Name of output file */
-double gamma;                  /* Name of output file */
+double gi=0;
 
 //----------------------------------------------------------------------------//
 //         Main program                                                       //
 //----------------------------------------------------------------------------//
 
-main ()
+int main ()
 {
      // Display heading
      heading ();
@@ -84,8 +86,8 @@ void heading ()
 void openfiles ()
 {
      printf("\n Opening Input and Output image files\n");
-     printf(" Enter name of *.pgm INPUT image file (example: lena.pgm) ");
-     scanf("%s",&infile);
+     printf(" Enter name of *.ppm INPUT image file (example: lena.ppm) ");
+     scanf("%s",infile);
      
      //Check if input file exists
      if ((infptr = fopen(infile, "rb")) == NULL)
@@ -97,7 +99,7 @@ void openfiles ()
        }
      
      printf(" Enter name of *.pgm OUTPUT image file (example: lenaout.pgm) ");
-     scanf("%s",&outfile);
+     scanf("%s",outfile);
      
      //Check if output file was created succesfully
      if ((outfptr = fopen(outfile, "wb")) == NULL)
@@ -109,19 +111,16 @@ void openfiles ()
        }
        
      // If this point is reached, file are OK
+  // If this point is reached, file are OK
      printf(" File opened and created OK! \n\n");
-
      printf(" Gamma-> ");
-     scanf("%d",&gamma);
-     if (gamma<.25 || gamma>7){
+     scanf("%lf",&gi);
+     if (gi<.25 || gi>7){
       printf("Not a valid value");
       system("PAUSE");
       exit(1);
      }
-      printf("ok gamma value! \n\n");
-
-
-     
+      printf("ok gamma value! \n\n");     
 }  //end openfiles ()
 
 //----------------------------------------------------------------------------//
@@ -143,12 +142,12 @@ void readhdr ()
        i++; 
      } while (c != '\n');
      
-     //Check if file is P5 (pgm) format
-     if (buffer[1] == '5')
-       printf("\n Input file is pgm, OK\n");
+     //Check if file is P6 (ppm) format
+     if (buffer[1] == '6')
+       printf("\n Input file is ppm, OK\n");
      else
      {
-       printf("\n Input file is NOT pgm, Exiting program...\n");
+       printf("\n Input file is NOT ppm, Exiting program...\n");
        system("PAUSE");
        exit(0);
      }
@@ -167,17 +166,32 @@ void readhdr ()
 
 void addhdr ()
 {
-     fprintf(outfptr, "P5\n%d %d\n%d\n",NCols,MRows,255);
+     fprintf(outfptr, "P6\n%d %d\n%d\n",NCols,MRows,255);
 } //addhdr ()
-
-//----------------------------------------------------------------------------//
-//         Convert from grayScale                                             //
-//         to Binary                                                          //
-//----------------------------------------------------------------------------//
 
 void userdefined ()
 {
-	unsigned char oldPixel;
+	unsigned char p; // newPix
+	unsigned char np; // New Pixel
+	
+    // Read the first Pixel in the input image
+    p = fgetc(infptr);
+    
+    do{
+        //asign Value for new fixel
+      double exec=1/gi;
+    	np = 255*pow((p/255.0), exec);
+        //write new value
+     	fputc(np,outfptr);
+        //fputc(p,outfptr);
+     	p = fgetc(infptr);
+	} while(!feof(infptr));
+
+    /*
+    
+    void userdefined ()
+{
+    unsigned char oldPixel;
 	unsigned char newPixel;
 	
     // Read the first Pixel in the input image
@@ -185,15 +199,16 @@ void userdefined ()
     
     do{
 
-      newPixel=255*pow((oldPixel/255), 1/gamma);
+      newPixel=255*pow((oldPixel/255), 1/gi);
     	
      	fputc(newPixel,outfptr);
      	// Read next pixel in input image and check if its the last
      	oldPixel = fgetc(infptr);
 	} while(!feof(infptr));
-
-
-
+	
+	
+}
+    */
 }  // end userdefined ()
 
 //----------------------------------------------------------------------------//
