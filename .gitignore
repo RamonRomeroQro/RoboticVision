@@ -1,6 +1,7 @@
 .vscode
 expropiated
 /expropiated
+venv
 
 # Prerequisites
 *.d
