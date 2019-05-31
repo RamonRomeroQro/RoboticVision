@@ -1,0 +1,20 @@
+05-10-2019 15:14:51 T#2[0x0000079c] INFO  - Beginning application initialization
+05-10-2019 15:14:53 T#2[0x0000079c] INFO  - Vision Engine version: 7020102 starting
+05-10-2019 15:14:57 T#2[0x0000079c] INFO  - Load starts
+05-10-2019 15:14:57 T#2[0x0000079c] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+05-10-2019 15:14:57 T#2[0x0000079c] INFO  - [[None]] FTP image buffer is default: "C:\ProgramData\Teledyne DALSA\Sherlock\images"
+05-10-2019 15:14:58 T#2[0x0000079c] INFO  - Load finished
+05-10-2019 15:14:58 T#2[0x0000079c] INFO  - Application initialization succeeded
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Saving starts
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine version: 7020102 starting
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine version: 7020102 starting
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine version: 7020102 starting
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine version: 7020102 starting
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Saving finished
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine terminating
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine terminating
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine terminating
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine terminating
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Vision Engine terminating
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Beginning application shutdown
+05-10-2019 15:15:18 T#2[0x0000079c] INFO  - Application shutdown succeeded

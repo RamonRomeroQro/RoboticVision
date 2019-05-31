@@ -1,0 +1,3663 @@
+<?xml version="1.0"?>
+<!--  Wednesday, January 01, 2003 08:03:41  -->
+
+<Investigation
+	Version="7010501"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="Angulo_Pentagono"
+	RtType="1"
+	RtId="244096744"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="Angulo_Triangulo"
+	RtType="1"
+	RtId="244098440"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="-0.41076193850267295"
+/>
+</Var>
+<Var
+	RtName="Angulo_Cuadrado"
+	RtType="1"
+	RtId="244099136"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="CAM"
+	RtType="1"
+	RtId="244134064"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#0 P2000 T3000#1 P1500 T3000 #2 P1500 T3000 #3 P1500 T3000 #4 P1500 T3000 #5 P1500 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="Pentagonos"
+	RtType="1"
+	RtId="243909936"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="Triangulos"
+	RtType="1"
+	RtId="243910040"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</Var>
+<Var
+	RtName="Cuadrados"
+	RtType="1"
+	RtId="243910144"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="Circulos"
+	RtType="1"
+	RtId="243910248"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="aumentoAngulo"
+	RtType="1"
+	RtId="243910352"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</Var>
+<Var
+	RtName="Rotacion"
+	RtType="1"
+	RtId="244100120"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#4 P14 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="Posicionar"
+	RtType="1"
+	RtId="244100224"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#0 P1310 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="CasiAgarrar"
+	RtType="1"
+	RtId="244100328"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#1 P1250 T3000 #2 P1580 T3000 #3 P820 T3000 #4 P1500 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="PosicionF"
+	RtType="1"
+	RtId="244100432"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#0 P1045 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="CasiSoltar"
+	RtType="1"
+	RtId="244100536"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#1 P1250 T3000 #2 P1490 T3000 #3 P880 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="Soltar"
+	RtType="1"
+	RtId="244100640"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#5 P1500 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="Agarrar"
+	RtType="1"
+	RtId="244129368"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#5 P2500 T3000\x0D"
+/>
+</Var>
+<Var
+	RtName="HOME2"
+	RtType="1"
+	RtId="244129472"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="#0 P2000 T3000#1 P1500 T3000 #2 P1500 T3000 #3 P1500 T3000 #4 P1500 T3000\x0D"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="244452704"
+/>
+<FileIo
+	RtId="244489520"
+/>
+<FileIo
+	RtId="163556072"
+/>
+<FileIo
+	RtId="244018744"
+/>
+<FileIo
+	RtId="243910512"
+/>
+<FileIo
+	RtId="243910928"
+/>
+<FileIo
+	RtId="243911344"
+/>
+<FileIo
+	RtId="244019552"
+/>
+<FileIo
+	RtId="244010488"
+/>
+<FileIo
+	RtId="244019168"
+/>
+</FileIoMgr>
+<SerialIoMgr>
+<SerialIo
+	BaudRate="115200"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+</SerialIoMgr>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="244010328"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="244158976"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="1"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.5"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="644"
+	WndPosBottom="484"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="69"
+	WndPosSizeScrollX="639"
+	WndPosSizeScrollY="479"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="D:\Program Files\ipd\Sherlock\Bin\..\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="244139536"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="254389000"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="55.208677299320698"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 55.21"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="254389520"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	CameraIndex="0"
+/>
+<Image
+	Width="1280"
+	Height="960"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="244099552"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="244057712"
+	ParentInstr="244158976"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="244158976"
+/>
+<Instruction
+	RtName="Mover a CAM"
+	RtType="5"
+	RtId="254291752"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="244139208"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="244138880"
+	Connected="244134064">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="244503288"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="254390512"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="89"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 89.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="254391176"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay"
+	RtType="5"
+	RtId="244501200"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(3500);&#xD;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="ROI_Pentagono"
+	RtType="5"
+	RtId="254391864"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="0"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="235"
+	HdrLocY="115"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="244158976"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(230,120),(817,695)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(230,120),(817,695)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="254392832"
+	ParentInstr="254391864"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="254391864"
+	Tag="SegundoParcial-ROI_Pentagono-algA"
+	ImgProcId="_CIpeSearchEdge_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="254393008"
+	ConnVar="243909936"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="matches count: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="254393552"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val=""
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name: "
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="254394192"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="230,120"
+/>
+<Annot
+	Type="1"
+	X="540"
+	Y="392"
+	Clr="0"
+	Text="location: (230.00, 120.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="230,120"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="254394880"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="254395568"
+	ConnVar="244096744"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="254396208"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="254396848"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="230,120"
+/>
+<Annot
+	Type="1"
+	X="246"
+	Y="392"
+	Clr="0"
+	Text="pattern left: (230.00, 120.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="230,120"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="254397512"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="230,120"
+/>
+<Annot
+	Type="1"
+	X="834"
+	Y="392"
+	Clr="0"
+	Text="pattern right: (230.00, 120.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="230,120"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="254578696"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="254579216"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="540"
+	Y="409"
+	Clr="0"
+	Text="location[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id9>
+<id10
+	RtId="254579736"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="254580376"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="254581016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+</Outputs>
+<Params>
+<id0
+	RtName="execution mode"
+	RtType="2"
+	RtId="244470504"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="max matches"
+	RtType="2"
+	RtId="254581816"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id1>
+<id2
+	RtName="min score"
+	RtType="2"
+	RtId="254582064"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="50"
+/>
+</id2>
+<id3
+	RtName="min rotation"
+	RtType="2"
+	RtId="254582432"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-45"
+/>
+</id3>
+<id4
+	RtName="max rotation"
+	RtType="2"
+	RtId="254582800"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="45"
+/>
+</id4>
+<id5
+	RtName="min scale"
+	RtType="2"
+	RtId="254583120"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id5>
+<id6
+	RtName="max scale"
+	RtType="2"
+	RtId="254583440"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id6>
+<id7
+	RtName="timeout"
+	RtType="2"
+	RtId="254583784"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id7>
+<id8
+	RtName="timeout value"
+	RtType="2"
+	RtId="254584032"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id8>
+<id9
+	RtName="pattern rectangle"
+	RtType="2"
+	RtId="254584376"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="model name"
+	RtType="2"
+	RtId="254584640"
+	ValType="259"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+</id10>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="254359744"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="ROI_Triangulo"
+	RtType="5"
+	RtId="256253536"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="247"
+	HdrLocY="133"
+	WriteChanges="1"
+	Locked="0"
+	Selected="1"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="244158976"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(242,138),(806,684)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(242,138),(806,684)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algB"
+	RtType="5"
+	RtId="256656048"
+	ParentInstr="256253536"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="256253536"
+	Tag="SegundoParcial-ROI_Triangulo-algB"
+	ImgProcId="_CIpeSearchEdge_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="256618248"
+	ConnVar="243910040"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="matches count: 1.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="256617664"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name: default"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="256575280"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="540.30908203125,386.93147277832031"
+/>
+<Annot
+	Type="1"
+	X="540"
+	Y="429"
+	Clr="0"
+	Text="location: (540.31, 386.93)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="540.309,386.931"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="256557744"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="97.055671691894531"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score: 97.06"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="256442080"
+	ConnVar="244098440"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="-0.41076193850267295"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle: -0.41"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="256294008"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale: 1.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="256440880"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="281.30832449561308,499.73598330855668"
+/>
+<Annot
+	Type="1"
+	X="258"
+	Y="412"
+	Clr="0"
+	Text="pattern left: (281.31, 499.74)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="281.308,499.736"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="256287856"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="799.30983956688692,274.12696224808394"
+/>
+<Annot
+	Type="1"
+	X="823"
+	Y="412"
+	Clr="0"
+	Text="pattern right: (799.31, 274.13)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="799.31,274.127"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="256539288"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="1"
+	String0="default"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name[]: (default, ...) [1]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="256294656"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="1"
+	Value="(540.309,386.931)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="540"
+	Y="446"
+	Clr="0"
+	Text="location[]: ((540.31, 386.93), ...) [1]"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="540.309,386.931"
+/>
+</Annot>
+</id9>
+<id10
+	RtId="256558344"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="1"
+	Value="97.0557"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score[]: ((97.06), ...) [1]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="256658432"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="1"
+	Value="-0.410762"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle[]: ((-0.41), ...) [1]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="256359152"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="1"
+	Value="1"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale[]: ((1.00), ...) [1]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+</Outputs>
+<Params>
+<id0
+	RtName="execution mode"
+	RtType="2"
+	RtId="256232416"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="max matches"
+	RtType="2"
+	RtId="256657464"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id1>
+<id2
+	RtName="min score"
+	RtType="2"
+	RtId="254614752"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="50"
+/>
+</id2>
+<id3
+	RtName="min rotation"
+	RtType="2"
+	RtId="256229512"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-60"
+/>
+</id3>
+<id4
+	RtName="max rotation"
+	RtType="2"
+	RtId="256230240"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="60"
+/>
+</id4>
+<id5
+	RtName="min scale"
+	RtType="2"
+	RtId="256231000"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id5>
+<id6
+	RtName="max scale"
+	RtType="2"
+	RtId="256231760"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id6>
+<id7
+	RtName="timeout"
+	RtType="2"
+	RtId="256273888"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id7>
+<id8
+	RtName="timeout value"
+	RtType="2"
+	RtId="256226336"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id8>
+<id9
+	RtName="pattern rectangle"
+	RtType="2"
+	RtId="256226760"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="model name"
+	RtType="2"
+	RtId="256227096"
+	ValType="259"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+</id10>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="256232208"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="ROI_Cuadrado"
+	RtType="5"
+	RtId="244434592"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="267"
+	HdrLocY="151"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="244158976"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(262,156),(788,666)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(262,156),(788,666)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algC"
+	RtType="5"
+	RtId="256656472"
+	ParentInstr="244434592"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="244434592"
+	Tag="SegundoParcial-ROI_Cuadrado-algC"
+	ImgProcId="_CIpeSearchEdge_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="256561512"
+	ConnVar="243910144"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="matches count: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="256270888"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val=""
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name: "
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="256643456"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="262,156"
+/>
+<Annot
+	Type="1"
+	X="541"
+	Y="463"
+	Clr="0"
+	Text="location: (262.00, 156.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="262,156"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="256423352"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="258010112"
+	ConnVar="244099136"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="256311488"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="256602984"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="262,156"
+/>
+<Annot
+	Type="1"
+	X="278"
+	Y="429"
+	Clr="0"
+	Text="pattern left: (262.00, 156.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="262,156"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="258086544"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="262,156"
+/>
+<Annot
+	Type="1"
+	X="805"
+	Y="429"
+	Clr="0"
+	Text="pattern right: (262.00, 156.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="262,156"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="258085960"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="258026072"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="541"
+	Y="480"
+	Clr="0"
+	Text="location[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id9>
+<id10
+	RtId="256595424"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="256196072"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="256431632"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+</Outputs>
+<Params>
+<id0
+	RtName="execution mode"
+	RtType="2"
+	RtId="256231336"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="max matches"
+	RtType="2"
+	RtId="258122136"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id1>
+<id2
+	RtName="min score"
+	RtType="2"
+	RtId="256597104"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="50"
+/>
+</id2>
+<id3
+	RtName="min rotation"
+	RtType="2"
+	RtId="256599120"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-45"
+/>
+</id3>
+<id4
+	RtName="max rotation"
+	RtType="2"
+	RtId="256249360"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="45"
+/>
+</id4>
+<id5
+	RtName="min scale"
+	RtType="2"
+	RtId="244455488"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id5>
+<id6
+	RtName="max scale"
+	RtType="2"
+	RtId="256411496"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id6>
+<id7
+	RtName="timeout"
+	RtType="2"
+	RtId="256438168"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id7>
+<id8
+	RtName="timeout value"
+	RtType="2"
+	RtId="256275640"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id8>
+<id9
+	RtName="pattern rectangle"
+	RtType="2"
+	RtId="244490320"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="model name"
+	RtType="2"
+	RtId="256236240"
+	ValType="259"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+</id10>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="256404976"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="ROI_Circulo"
+	RtType="5"
+	RtId="255692712"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="287"
+	HdrLocY="173"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="244158976"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(282,178),(774,652)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(282,178),(774,652)"
+/>
+</OrgCoords>
+<Preprocessors
+/>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algD"
+	RtType="5"
+	RtId="256655712"
+	ParentInstr="255692712"
+	InstrType="19"
+	Collapsed="0"
+	SoRtId="255692712"
+	Tag="SegundoParcial-ROI_Circulo-algD"
+	ImgProcId="_CIpeSearchEdge_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="258036176"
+	ConnVar="243910248"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="matches count: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="258035592"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val=""
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name: "
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="257981944"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="282,178"
+/>
+<Annot
+	Type="1"
+	X="544"
+	Y="467"
+	Clr="0"
+	Text="location: (282.00, 178.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="282,178"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="256444832"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="256572848"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="258049488"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="256601400"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="282,178"
+/>
+<Annot
+	Type="1"
+	X="298"
+	Y="433"
+	Clr="0"
+	Text="pattern left: (282.00, 178.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="282,178"
+/>
+</Annot>
+</id6>
+<id7
+	RtId="255696904"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="282,178"
+/>
+<Annot
+	Type="1"
+	X="791"
+	Y="399"
+	Clr="0"
+	Text="pattern right: (282.00, 178.00)"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="2"
+	Value="282,178"
+/>
+</Annot>
+</id7>
+<id8
+	RtId="256207176"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="name[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id8>
+<id9
+	RtId="256419040"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="544"
+	Y="501"
+	Clr="0"
+	Text="location[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="244158976">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id9>
+<id10
+	RtId="256587704"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="score[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="256205360"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="angle[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="256557120"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="0"
+	Value=""
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="scale[]: (...) [0]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+</Outputs>
+<Params>
+<id0
+	RtName="execution mode"
+	RtType="2"
+	RtId="256430560"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="max matches"
+	RtType="2"
+	RtId="258102520"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id1>
+<id2
+	RtName="min score"
+	RtType="2"
+	RtId="256382520"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="50"
+/>
+</id2>
+<id3
+	RtName="min rotation"
+	RtType="2"
+	RtId="256240480"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-15"
+/>
+</id3>
+<id4
+	RtName="max rotation"
+	RtType="2"
+	RtId="269891128"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="15"
+/>
+</id4>
+<id5
+	RtName="min scale"
+	RtType="2"
+	RtId="256523376"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id5>
+<id6
+	RtName="max scale"
+	RtType="2"
+	RtId="256448432"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id6>
+<id7
+	RtName="timeout"
+	RtType="2"
+	RtId="256210112"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id7>
+<id8
+	RtName="timeout value"
+	RtType="2"
+	RtId="256236536"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1000"
+/>
+</id8>
+<id9
+	RtName="pattern rectangle"
+	RtType="2"
+	RtId="256587128"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="model name"
+	RtType="2"
+	RtId="256338960"
+	ValType="259"
+	Connected="0">
+<Obj
+	Type="4"
+	Val="default"
+/>
+</id10>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="256204808"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Posicionar en Pieza"
+	RtType="5"
+	RtId="256478944"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="256276128"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="256576856"
+	Connected="244100224">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="256442736"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="258035016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="15"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 15.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="257970848"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay_A"
+	RtType="5"
+	RtId="256358072"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(5000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Casi Agarrar"
+	RtType="5"
+	RtId="256236032"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="269868200"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="258055536"
+	Connected="244100328">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="256606696"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="256537608"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="59"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 59.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="258032600"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay_A_A"
+	RtType="5"
+	RtId="258070840"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(4000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Cerrar"
+	RtType="5"
+	RtId="244176544"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="256572704"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="258056224"
+	Connected="244129368">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="257977024"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="271270272"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="15"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 15.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="269873264"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay_A_A_B"
+	RtType="5"
+	RtId="269867992"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(5000);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Posicionar en HOME2"
+	RtType="5"
+	RtId="244175552"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="256317352"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="256433160"
+	Connected="244129472">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="256433672"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="258469384"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="74"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 74.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="271269096"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay_A_A_A"
+	RtType="5"
+	RtId="269884576"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(3500);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="scriptA"
+	RtType="5"
+	RtId="256373728"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Declarar variables locales&#xD;var AngPen;&#xD;var AngTri;&#xD;var AngCua;&#xD;&#xD;//Cambiando de Radianes a Grados&#xD;AngPen=Vars.Angulo_Pentagono*(Math.PI/180);&#xD;AngTri=Vars.Angulo_Triangulo*(Math.PI/180);&#xD;AngCua=Vars.Angulo_Cuadrado*(Math.PI/180);&#xD;&#xD;function Rotar(Angulo){&#xD;if (Angulo&lt;0){&#xD;Angulo=Angulo*(-1);&#xD;}&#xD;var Y=Math.floor(  11.11*(Angulo)+10);&#xD;var comando= &quot;#4 P&quot;+Y.toString() +&quot; T3000\\x0D&quot;;&#xD;return comando;&#xD;}   &#xD;&#xD;//Identificar la figura&#xD;&#xD;&#xD;if(Vars.Pentagonos==1) {&#xD;var ang=Vars.Angulo_Pentagono;&#xD;Vars.Rotacion=Rotar(ang);&#xD;Vars.PosicionF=&quot;#0 P950 T3000\\x0D&quot;;&#xD;Vars.CasiSoltar=&quot;#1 P1190 T3000 #2 P1420 T3000 #3 P910 T3000\\x0D&quot;;&#xD;}&#xD;&#xD;if(Vars.Cuadrados==1) {&#xD;var ang=Vars.Angulo_Cuadrado;&#xD;Vars.Rotacion=Rotar(ang);&#xD;Vars.PosicionF=&quot;#0 P910 T3000\\x0D&quot;;&#xD;Vars.CasiSoltar=&quot;#1 P1300 T3000 #2 P1580 T3000 #3 P880 T3000\\x0D&quot;;&#xD;}&#xD;&#xD;if(Vars.Triangulos==1) {&#xD;var ang=Vars.Angulo_Triangulo;&#xD;Vars.Rotacion=Rotar(ang);&#xD;Vars.PosicionF=&quot;#0 P1045 T3000\\x0D&quot;;&#xD;Vars.CasiSoltar=&quot;#1 P1250 T3000 #2 P1490 T3000 #3 P880 T3000\\x0D&quot;;&#xD;}&#xD;&#xD;if(Vars.Circulos==1) {&#xD;Vars.PosicionF=&quot;#0 P1020 T3000\\x0D&quot;;&#xD;Vars.CasiSoltar=&quot;#1 P1280 T3000 #2 P1590 T3000 #3 P760 T3000\\x0D&quot;;&#xD;}&#xD;Vars.Soltar=&quot;#5 P1500 T3000\\x0D&quot;;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Rotar"
+	RtType="5"
+	RtId="244173024"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="256434184"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="256434608"
+	Connected="244100120">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="256433928"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="269883600"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="13"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 13.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="256376216"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay_A_A_A_A"
+	RtType="5"
+	RtId="256393744"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(3500);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="PosicionarFianl"
+	RtType="5"
+	RtId="254405880"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="256433416"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="256458456"
+	Connected="244100432">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="256251272"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="256407360"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="15"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 15.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="256290992"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay_A_A_A_A_A"
+	RtType="5"
+	RtId="256616400"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(3500);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Casi Soltarlo"
+	RtType="5"
+	RtId="254409008"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="256435896"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="256542344"
+	Connected="244100536">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="256576600"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="256392768"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="44"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 44.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="256399840"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Delay_A_A_A_A_A_A"
+	RtType="5"
+	RtId="256285880"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="//Retraso en el movimiento&#xD;System.Sleep(3500);">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="Soltarlo"
+	RtType="5"
+	RtId="254409160"
+	ParentInstr="0"
+	InstrType="800"
+	Collapsed="1">
+<Inputs>
+<id0
+	RtId="256577112"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id0>
+<id1
+	RtId="269875072"
+	Connected="244100640">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id1>
+<id2
+	RtId="256209000"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id2>
+</Inputs>
+<Outputs>
+<id0
+	RtId="256372744"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="15"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="bytes sent: 15.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="269868344"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="result: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="254409576"
+	ParentInstr="244158976"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="244158976"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="244010328"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="244010328">
+<Children>
+<Child
+	Id="244158976"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="244158976">
+<Children>
+<Child
+	Id="244057712"
+/>
+<Child
+	Id="254291752"
+/>
+<Child
+	Id="244501200"
+/>
+<Child
+	Id="254391864"
+/>
+<Child
+	Id="256253536"
+/>
+<Child
+	Id="244434592"
+/>
+<Child
+	Id="255692712"
+/>
+<Child
+	Id="256478944"
+/>
+<Child
+	Id="256358072"
+/>
+<Child
+	Id="256236032"
+/>
+<Child
+	Id="258070840"
+/>
+<Child
+	Id="244176544"
+/>
+<Child
+	Id="269867992"
+/>
+<Child
+	Id="244175552"
+/>
+<Child
+	Id="269884576"
+/>
+<Child
+	Id="256373728"
+/>
+<Child
+	Id="244173024"
+/>
+<Child
+	Id="256393744"
+/>
+<Child
+	Id="254405880"
+/>
+<Child
+	Id="256616400"
+/>
+<Child
+	Id="254409008"
+/>
+<Child
+	Id="256285880"
+/>
+<Child
+	Id="254409160"
+/>
+<Child
+	Id="254409576"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>

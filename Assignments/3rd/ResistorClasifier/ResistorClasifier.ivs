@@ -1,0 +1,2785 @@
+<?xml version="1.0"?>
+<!--  Friday, May 10, 2019 15:15:18  -->
+
+<Investigation
+	Version="7020102"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="Bar_3"
+	RtType="1"
+	RtId="162359088"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="brown"
+/>
+</Var>
+<Var
+	RtName="Bar_2"
+	RtType="1"
+	RtId="162355568"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="red"
+/>
+</Var>
+<Var
+	RtName="Bar_1"
+	RtType="1"
+	RtId="162362080"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="gray"
+/>
+</Var>
+<Var
+	RtName="Value"
+	RtType="1"
+	RtId="162365072"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="Resistencia: 820 ohms"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="175368432"
+/>
+<FileIo
+	RtId="175371600"
+/>
+<FileIo
+	RtId="175365264"
+/>
+<FileIo
+	RtId="175362096"
+/>
+<FileIo
+	RtId="175365792"
+/>
+<FileIo
+	RtId="175357872"
+/>
+<FileIo
+	RtId="175366320"
+/>
+<FileIo
+	RtId="175371072"
+/>
+<FileIo
+	RtId="175363680"
+/>
+<FileIo
+	RtId="175366848"
+/>
+</FileIoMgr>
+<SerialIoMgr
+/>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="162051312"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="Clasifier"
+	RtType="5"
+	RtId="175488512"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.25"
+	WndPosLeft="56"
+	WndPosTop="99"
+	WndPosRight="424"
+	WndPosBottom="428"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="348"
+	WndPosSizeScrollY="259"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="-1"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="176782416"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="176554288"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="47.715127319097519"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 47.72"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="174426544"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\Users\goyis\Documents\Proyectos VisRob\S12_Resistor Clasification\Color\S11_Resistor_Code\imagenes"
+	FileSeqPrefix="imagen"
+	FileSeqExt="BMP"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="4"
+	FileSeqNameFormat="1"
+	SoRtId="175488512"
+/>
+<Image
+	Width="1392"
+	Height="1038"
+	Attr="32"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162365600"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Read Code"
+	RtType="5"
+	RtId="174427376"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="2"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.25"
+	WndPosLeft="436"
+	WndPosTop="98"
+	WndPosRight="804"
+	WndPosBottom="427"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="348"
+	WndPosSizeScrollY="259"
+	bLogImages="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlock\images"
+	strLogPrefix="imgB-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	nFtpLogCurIndex="-1"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgB-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="1000"
+	RealBpp="12"
+	SrcBpp="8"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="176777376"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="176652144"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="2.6309306919574738"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 2.63"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="176431072"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	ShareBuffer="0"
+	IsType="1"
+	ImgType="32"
+	SrcBpp="8"
+	SoSrcRtId="175488512"
+	ParentSo="174427376"
+/>
+<Image
+	Width="1392"
+	Height="1038"
+	Attr="32"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162362256"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="175578032"
+	ParentInstr="175488512"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="175488512"
+/>
+<Instruction
+	RtName="RectA"
+	RtType="5"
+	RtId="176431904"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="521"
+	HdrLocY="403"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="175488512"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(516,408),(1016,584)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(516,408),(1016,584)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepA"
+	RtType="5"
+	RtId="176788144"
+	ParentInstr="176431904"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="176431904"
+	Tag="ResistorClasifier-RectA-prepA"
+	ImgProcId="_CIpeGammaExtrRGB32_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="gamma"
+	RtType="2"
+	RtId="175487680"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0.45000000000000001"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="176787184"
+	ParentInstr="176431904"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="176431904"
+	Tag="ResistorClasifier-RectA-algA"
+	ImgProcId="_CIpeColMapBlock_"
+	PrettyName="RectA.algA.Color Map"
+	DestroyCc="1"
+	UsedCc="RectA.algA.Color Map"
+	HasCc="1"
+	MapBuffId="-1">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="176433152"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color map: Handle"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="176433984"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0,1,2,3,4,5,6"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="used ids: ((0.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="176434816"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="7"
+	String0="red"
+	String1="black"
+	String2="orange"
+	String3="brown"
+	String4="yellow"
+	String5="violet"
+	String6="gray"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="used colors: (red, ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params>
+<id0
+	RtName="dist"
+	RtType="2"
+	RtId="175487984"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="2"
+/>
+</id0>
+</Params>
+<IgnoredIds>
+<Val
+	Size="0"
+	Value=""
+/>
+</IgnoredIds>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162362432"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="175578304"
+	ParentInstr="175488512"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="175488512"
+/>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="175581568"
+	ParentInstr="174427376"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="174427376"
+/>
+<Instruction
+	RtName="Bar3"
+	RtType="5"
+	RtId="176437040"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="565"
+	HdrLocY="451"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="174427376"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(560,456),(696,588)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(560,456),(696,588)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepB"
+	RtType="5"
+	RtId="176784624"
+	ParentInstr="176437040"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="176437040"
+	Tag="ResistorClasifier-Bar3-prepB"
+	ImgProcId="_CIpeGammaExtrRGB32_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="gamma"
+	RtType="2"
+	RtId="175480384"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0.45000000000000001"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algB"
+	RtType="5"
+	RtId="176785264"
+	ParentInstr="176437040"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="176437040"
+	Tag="ResistorClasifier-Bar3-algB"
+	ImgProcId="_CIpeColPresMeter_"
+	PrettyName="Bar3.algB.Color Presence"
+	DestroyCc="1"
+	UsedCc="RectA.algA.Color Map"
+	HasCc="0">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="177748928"
+	ConnVar="162359088"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="brown"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant color name: brown"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id10
+	RtId="176438288"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant color index: 3.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id1
+	RtId="176837840"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="6261"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant count: 6261.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="176838672"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="34.361451072937818"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant percent: 34.36"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+<id3
+	RtId="176839504"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="7"
+	String0="brown"
+	String1="yellow"
+	String2="orange"
+	String3="gray"
+	String4="red"
+	String5="black"
+	String6="violet"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color names: (brown, ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id11
+	RtId="176840336"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="7"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of colors: 7.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id4
+	RtId="176841168"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="6261,660,163,134,102,17,17"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color counts: ((6261.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="176842000"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="34.361451072937818,3.6221941715602877,0.89457219691564682,0.73541518028648267,0.55979364469568083,0.093298940782613471,0.093298940782613471"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color percents: ((34.36), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id12
+	RtId="176842832"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="18221"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of found pixels: 18221.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+<id6
+	RtId="176847072"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="18221"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of ROI pixels: 18221.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id6>
+<id20
+	RtId="176845408"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="120,68,134,82,114,66,66"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned R means: ((120.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id20>
+<id21
+	RtId="176844576"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="58,62,86,62,98,60,64"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned G means: ((58.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id21>
+<id22
+	RtId="176847904"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="62,60,64,58,66,70,62"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned B means: ((62.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id22>
+<id30
+	RtId="176850400"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="60.362402172176971,80.889393939393941,76.239263803680984,75.104477611940297,72.490196078431367,54.176470588235297,60.117647058823529"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found R means: ((60.36), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id30>
+<id31
+	RtId="176848736"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="44.842676888675932,71.293939393939397,61.282208588957054,66.835820895522389,54.313725490196077,45.411764705882355,52.411764705882355"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found G means: ((44.84), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id31>
+<id32
+	RtId="176843744"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="41.266890273119309,59.296969696969697,50.171779141104295,62.395522388059703,47.588235294117645,42.882352941176471,54"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found B means: ((41.27), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id32>
+<id40
+	RtId="176849568"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="3.1515698476481053,1.6006276030356552,4.3902210850715218,2.4685141361845893,2.4999807765504718,1.7568452380080022,4.6130550415758966"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found R S.D.: ((3.15), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id40>
+<id41
+	RtId="176846240"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="2.8009067352245158,1.7833301150816021,6.79544163568311,3.1366728971067914,2.9933926982962134,0.77146335580030068,3.3617016617010851"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found G S.D.: ((2.80), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id41>
+<id42
+	RtId="177740928"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="3.5859186697715217,2.1762470961092997,7.6033533867779326,2.6794370558133984,1.3162107017128548,3.5460392642591865,3.7416573867739413"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found B S.D.: ((3.59), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id42>
+</Outputs>
+<Params>
+<id0
+	RtName="distance"
+	RtType="2"
+	RtId="175481904"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="15"
+/>
+</id0>
+</Params>
+<IgnoredIds>
+<Val
+	Size="0"
+	Value=""
+/>
+</IgnoredIds>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162359616"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Bar2"
+	RtType="5"
+	RtId="176851872"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="721"
+	HdrLocY="407"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="174427376"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(716,412),(836,500)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(716,412),(836,500)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepC"
+	RtType="5"
+	RtId="176787824"
+	ParentInstr="176851872"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="176851872"
+	Tag="ResistorClasifier-Bar2-prepC"
+	ImgProcId="_CIpeGammaExtrRGB32_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="gamma"
+	RtType="2"
+	RtId="175483424"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0.45000000000000001"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algC"
+	RtType="5"
+	RtId="176786544"
+	ParentInstr="176851872"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="176851872"
+	Tag="ResistorClasifier-Bar2-algC"
+	ImgProcId="_CIpeColPresMeter_"
+	PrettyName="Bar2.algC.Color Presence"
+	DestroyCc="1"
+	UsedCc="RectA.algA.Color Map"
+	HasCc="0">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="177738432"
+	ConnVar="162355568"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="red"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant color name: red"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id10
+	RtId="177744256"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant color index: 0.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id1
+	RtId="177736768"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="2112"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant count: 2112.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="177740096"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="19.611848825331972"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant percent: 19.61"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+<id3
+	RtId="177737600"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="7"
+	String0="red"
+	String1="gray"
+	String2="yellow"
+	String3="orange"
+	String4="violet"
+	String5="brown"
+	String6="black"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color names: (red, ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id11
+	RtId="177732608"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="7"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of colors: 7.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id4
+	RtId="177735936"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="2112,1762,419,105,6,2,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color counts: ((2112.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="177734272"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="19.611848825331972,16.361779180982449,3.8907976599498562,0.97502089330485653,0.05571547961742037,0.018571826539140125,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color percents: ((19.61), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id12
+	RtId="177747584"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="10769"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of found pixels: 10769.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+<id6
+	RtId="177739264"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="10769"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of ROI pixels: 10769.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id6>
+<id20
+	RtId="177743424"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="120,68,134,82,114,66,66"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned R means: ((120.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id20>
+<id21
+	RtId="177733440"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="58,62,86,62,98,60,64"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned G means: ((58.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id21>
+<id22
+	RtId="177741760"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="62,60,64,58,66,70,62"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned B means: ((62.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id22>
+<id30
+	RtId="177742592"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="73.468276515151516,72.563564131668556,79.532219570405729,79.19047619047619,63,62.5,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found R means: ((73.47), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id30>
+<id31
+	RtId="177735104"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="38.280303030303031,66.789443813847896,71.016706443914074,57.80952380952381,59.5,60.5,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found G means: ((38.28), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id31>
+<id32
+	RtId="177745088"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="39.269412878787875,61.621452894438136,58.749403341288783,47.600000000000001,57.5,52,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found B means: ((39.27), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id32>
+<id40
+	RtId="177746752"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="2.6069794984536734,3.6284114103557412,1.5620155847085389,2.3097937986519006,1,0.5,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found R S.D.: ((2.61), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id40>
+<id41
+	RtId="177745920"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="4.3790598374180458,2.713618454445907,1.4776642980685681,8.1557402958433265,0.5,0.5,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found G S.D.: ((4.38), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id41>
+<id42
+	RtId="176864848"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="4.1129705261803284,2.7292202302185946,2.1197375388234785,7.8152476120782861,1.5,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found B S.D.: ((4.11), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id42>
+</Outputs>
+<Params>
+<id0
+	RtName="distance"
+	RtType="2"
+	RtId="175483728"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="15"
+/>
+</id0>
+</Params>
+<IgnoredIds>
+<Val
+	Size="0"
+	Value=""
+/>
+</IgnoredIds>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162362784"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Bar1"
+	RtType="5"
+	RtId="176869520"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="1"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="841"
+	HdrLocY="547"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="174427376"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(836,552),(1032,628)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(836,552),(1032,628)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepD"
+	RtType="5"
+	RtId="176785904"
+	ParentInstr="176869520"
+	InstrType="18"
+	Collapsed="0"
+	SoRtId="176869520"
+	Tag="ResistorClasifier-Bar1-prepD"
+	ImgProcId="_CIpeGammaExtrRGB32_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="gamma"
+	RtType="2"
+	RtId="164523968"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0.45000000000000001"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algD"
+	RtType="5"
+	RtId="176786864"
+	ParentInstr="176869520"
+	InstrType="19"
+	Collapsed="1"
+	SoRtId="176869520"
+	Tag="ResistorClasifier-Bar1-algD"
+	ImgProcId="_CIpeColPresMeter_"
+	PrettyName="Bar1.algD.Color Presence"
+	DestroyCc="1"
+	UsedCc="RectA.algA.Color Map"
+	HasCc="0">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="176867344"
+	ConnVar="162362080"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4"
+	Val="gray"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant color name: gray"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id10
+	RtId="176864016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="6"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant color index: 6.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id1
+	RtId="176861520"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="3968"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant count: 3968.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="176859856"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="26.158612960643417"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="dominant percent: 26.16"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+<id3
+	RtId="176865680"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4099">
+<Val
+	Size="7"
+	String0="gray"
+	String1="yellow"
+	String2="orange"
+	String3="violet"
+	String4="red"
+	String5="black"
+	String6="brown"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color names: (gray, ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id11
+	RtId="176868176"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="7"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of colors: 7.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id4
+	RtId="176853200"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="3968,206,8,1,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color counts: ((3968.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="176860688"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="26.158612960643417,1.3580328301140483,0.052739139033555274,0.0065923923791944092,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="color percents: ((26.16), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id12
+	RtId="176866512"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="15169"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of found pixels: 15169.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+<id6
+	RtId="176854032"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="15169"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="number of ROI pixels: 15169.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id6>
+<id20
+	RtId="176855696"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="120,68,134,82,114,66,66"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned R means: ((120.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id20>
+<id21
+	RtId="176856528"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="58,62,86,62,98,60,64"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned G means: ((58.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id21>
+<id22
+	RtId="176854864"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="62,60,64,58,66,70,62"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="learned B means: ((62.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id22>
+<id30
+	RtId="176857360"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="67.735635080645167,79.805825242718441,78.125,62,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found R means: ((67.74), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id30>
+<id31
+	RtId="176858192"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="65.706401209677423,71.55825242718447,68.75,59,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found G means: ((65.71), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id31>
+<id32
+	RtId="176859024"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="63.248487903225808,59.305825242718448,58.75,62,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found B means: ((63.25), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id32>
+<id40
+	RtId="176862352"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="3.7449455587232832,1.8750184590791203,0.33071891388307384,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found R S.D.: ((3.74), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id40>
+<id41
+	RtId="176863184"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="2.2044537379085756,1.2322545657944779,0.4330127018922193,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found G S.D.: ((2.20), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id41>
+<id42
+	RtId="176881664"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="2.2896919543513365,1.6977040602695765,0.4330127018922193,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="found B S.D.: ((2.29), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id42>
+</Outputs>
+<Params>
+<id0
+	RtName="distance"
+	RtType="2"
+	RtId="164524272"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="15"
+/>
+</id0>
+</Params>
+<IgnoredIds>
+<Val
+	Size="0"
+	Value=""
+/>
+</IgnoredIds>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162357504"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="scriptA"
+	RtType="5"
+	RtId="174337088"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="var b1;&#xD;var b2; &#xD;var b3;&#xD;var res;&#xD;&#xD;//Determine value of Bar 1&#xD;switch (Vars.Bar_1) {&#xD;  case &quot;black&quot;:&#xD;    b1=0;&#xD;    break;&#xD;  case &quot;brown&quot;:&#xD;    b1=1;&#xD;    break;&#xD;case &quot;red&quot;:&#xD;    b1=2;&#xD;    break;&#xD;case &quot;orange&quot;:&#xD;    b1=3;&#xD;    break;&#xD;case &quot;yellow&quot;:&#xD;    b1=4;&#xD;    break;&#xD;case &quot;green&quot;:&#xD;    b1=5;&#xD;    break;&#xD;case &quot;blue&quot;:&#xD;    b1=6;&#xD;    break;&#xD;case &quot;violet&quot;:&#xD;    b1=7;&#xD;    break;&#xD;case &quot;gray&quot;:&#xD;    b1=8;&#xD;    break;&#xD;default:&#xD;    b1=0;&#xD;}&#xD;&#xD;//Determine value of band 2&#xD;switch (Vars.Bar_2) {&#xD;  case &quot;black&quot;:&#xD;    b2=0;&#xD;    break;&#xD;  case &quot;brown&quot;:&#xD;    b2=1;&#xD;    break;&#xD;case &quot;red&quot;:&#xD;    b2=2;&#xD;    break;&#xD;case &quot;orange&quot;:&#xD;    b2=3;&#xD;    break;&#xD;case &quot;yellow&quot;:&#xD;    b2=4;&#xD;    break;&#xD;case &quot;green&quot;:&#xD;    b2=5;&#xD;    break;&#xD;case &quot;blue&quot;:&#xD;    b2=6;&#xD;    break;&#xD;case &quot;violet&quot;:&#xD;    b2=7;&#xD;    break;&#xD;case &quot;gray&quot;:&#xD;    b2=8;&#xD;    break;&#xD;default:&#xD;    b2=0;&#xD;}&#xD;&#xD;//Determine the value of band 3&#xD;switch (Vars.Bar_3) {&#xD;  case &quot;black&quot;:&#xD;    b3=1;&#xD;    break;&#xD;  case &quot;brown&quot;:&#xD;    b3=10;&#xD;    break;&#xD;case &quot;red&quot;:&#xD;    b3=100;&#xD;    break;&#xD;case &quot;orange&quot;:&#xD;    b3=1000;&#xD;    break;&#xD;case &quot;yellow&quot;:&#xD;    b3=10000;&#xD;    break;&#xD;case &quot;green&quot;:&#xD;    b3=100000;&#xD;    break;&#xD;case &quot;blue&quot;:&#xD;    b3=1000000;&#xD;    break;&#xD;case &quot;violet&quot;:&#xD;    b3=10000000;&#xD;    break;&#xD;default:&#xD;    b3=1;&#xD;}&#xD;&#xD;//Calculate the value of the resistance&#xD;res= (b1*10+b2)*b3;&#xD;&#xD;//Display the value on screen&#xD;Vars.Value=&quot;Resistencia: &quot; + res+ &quot; ohms&quot;;">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="TextA"
+	RtType="5"
+	RtId="175584832"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="ResistorClasifier-TextA">
+<Inputs>
+<id0
+	RtId="176778336"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="20,20"
+/>
+</id0>
+<id1
+	RtId="176783376"
+	Connected="162365072">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="176778576"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="100"
+/>
+</id2>
+<id3
+	RtId="176783856"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id3>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="175584016"
+	ParentInstr="174427376"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="174427376"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="162051312"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="162051312">
+<Children>
+<Child
+	Id="175488512"
+/>
+<Child
+	Id="174427376"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="175488512">
+<Children>
+<Child
+	Id="175578032"
+/>
+<Child
+	Id="176431904"
+/>
+<Child
+	Id="175578304"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="174427376">
+<Children>
+<Child
+	Id="175581568"
+/>
+<Child
+	Id="176437040"
+/>
+<Child
+	Id="176851872"
+/>
+<Child
+	Id="176869520"
+/>
+<Child
+	Id="174337088"
+/>
+<Child
+	Id="175584832"
+/>
+<Child
+	Id="175584016"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>

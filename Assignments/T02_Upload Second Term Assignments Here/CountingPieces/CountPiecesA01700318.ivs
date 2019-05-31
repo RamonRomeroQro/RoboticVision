@@ -1,0 +1,1707 @@
+<?xml version="1.0"?>
+<!--  Friday, April 05, 2019 18:34:02  -->
+
+<Investigation
+	Version="7020707"
+	Lock="0"
+	Pwd=""
+	SpcReportEveryNRuns="0"
+	SpcReportFile="SpcReport.txt">
+<Variables>
+<Var
+	RtName="val"
+	RtType="1"
+	RtId="162318688"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="***Empty***"
+/>
+</Var>
+<Var
+	RtName="varA"
+	RtType="1"
+	RtId="162318864"
+	ValType="258">
+<Obj
+	Type="3"
+	Val="7"
+/>
+</Var>
+<Var
+	RtName="count"
+	RtType="1"
+	RtId="162319040"
+	ValType="259">
+<Obj
+	Type="4"
+	Val="7"
+/>
+</Var>
+</Variables>
+<BgScripts>
+<Script
+	Name="BgScriptA"
+/>
+<Script
+	Name="BgScriptB"
+/>
+<Script
+	Name="BgScriptC"
+/>
+<Script
+	Name="BgScriptD"
+/>
+<Script
+	Name="BgScriptE"
+/>
+</BgScripts>
+<Calibrations
+/>
+<FileIoMgr>
+<FileIo
+	RtId="174739856"
+/>
+<FileIo
+	RtId="174725600"
+/>
+<FileIo
+	RtId="174729824"
+/>
+<FileIo
+	RtId="174732464"
+/>
+<FileIo
+	RtId="174728768"
+/>
+<FileIo
+	RtId="174729296"
+/>
+<FileIo
+	RtId="174737216"
+/>
+<FileIo
+	RtId="174730352"
+/>
+<FileIo
+	RtId="174738272"
+/>
+<FileIo
+	RtId="174730880"
+/>
+</FileIoMgr>
+<SerialIoMgr>
+<SerialIo
+	BaudRate="9600"
+	DataBits="8"
+	Parity="0"
+	StopBits="0"
+	FlowControl="0"
+/>
+</SerialIoMgr>
+<UdpIoMgr
+/>
+<TcpIoMgr
+/>
+<ModbusIoMgr
+/>
+<Alignments
+/>
+<CLMngr
+/>
+<GeFanucMgr
+/>
+<HmiIoMgr
+	addr="127.0.0.1"
+	port="5085"
+	run="0"
+/>
+<ProfinetMgr
+	name=""
+	guid=""
+	ip=""
+/>
+<Subroutines>
+<Sub
+	RtName="Main"
+	RtType="5"
+	RtId="175691008"
+	ParentInstr="0"
+	InstrType="2"
+	Collapsed="0"
+	ExecFlags="0">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+<Instructions>
+<Instruction
+	RtName="imgA"
+	RtType="5"
+	RtId="174938512"
+	ParentInstr="0"
+	InstrType="3"
+	Collapsed="0"
+	ImgSrcType="5"
+	Calibration="0"
+	RestoreCalibration="0"
+	DisplayGrid="0"
+	GridSize="50"
+	DisplayOrigin="0"
+	PalType="1"
+	ShowRawPixels="1"
+	Zoom="0.25"
+	WndPosLeft="0"
+	WndPosTop="0"
+	WndPosRight="420"
+	WndPosBottom="395"
+	WndPosShowCmd="1"
+	WndPosPtScrollX="0"
+	WndPosPtScrollY="0"
+	WndPosSizeScrollX="400"
+	WndPosSizeScrollY="300"
+	WndToolbarVisible="1"
+	bLogImages="0"
+	bDisableNumFile="0"
+	bLogCurIndex="0"
+	bLogMaxIndex="100"
+	strLogDir="C:\ProgramData\Teledyne DALSA\Sherlockx64\images"
+	strLogPrefix="imgA-log-"
+	strLogExt="BMP"
+	bLogWrap="1"
+	bFtpLogImages="0"
+	bDisableNumFtp="0"
+	nFtpLogCurIndex="-1"
+	nFtpLogMaxIndex="100"
+	strFtpLogDir="/Public"
+	strFtpLogPrefix="imgA-ftp-log-"
+	strFtpLogExt="JPG"
+	bFtpLogWrap="1"
+	bFtpLogOverlay="0"
+	strFtpLogServer="user:password@ftpServer or ftpServer"
+	bAcqHWTrigger="0"
+	bAcqTimeout="5000"
+	RealBpp="12"
+	SrcBpp="12"
+	HwAcqTimeout="-1"
+	AcqTimeoutNoErrSkipExec="0">
+<Inputs>
+<id0
+	RtId="175303216"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+</Inputs>
+<Outputs>
+<id0
+	RtId="175741472"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="33.367305463179946"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq time: 33.37"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="175742400"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="acq status: True"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id1>
+<id2
+	RtId="175743328"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="10">
+<Val
+	HdlType="262"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="image: Handle"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id2>
+</Outputs>
+<Params
+/>
+<ImgSrc
+	FileSeqDir="..\..\..\..\Desktop\RICK-AQUI ESTAN MIS TAREAS ORDENADAS\CountingPieces\imagenes"
+	FileSeqPrefix="imagen"
+	FileSeqExt="bmp"
+	FileSeqStartIndex="0"
+	FileSeqEndIndex="-1"
+	FileSeqDelay="30"
+	FileSeqCurrentIndex="3"
+	FileSeqNameFormat="1"
+	SoRtId="174938512"
+/>
+<Image
+	Width="1600"
+	Height="1200"
+	Attr="1"
+/>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162316048"
+	ValType="1027">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="Begin"
+	RtType="5"
+	RtId="175337840"
+	ParentInstr="174938512"
+	InstrType="4"
+	Collapsed="0"
+	ParentSo="174938512"
+/>
+<Instruction
+	RtName="RectA"
+	RtType="5"
+	RtId="175999248"
+	ParentInstr="0"
+	InstrType="1"
+	Collapsed="0"
+	RoiType="67109120"
+	Interpolate="1"
+	RoiLocked="0"
+	ShowOutline="1"
+	ShowAnnot="1"
+	HdrLocked="0"
+	HdrLine="0"
+	HdrAnchorCoord="0"
+	HdrLocX="161"
+	HdrLocY="27"
+	WriteChanges="1"
+	Locked="0"
+	Selected="0"
+	Tolerance="0"
+	Cond="FALSE"
+	RoiSoRtId="174938512"
+	RoiAlignId="0">
+<Coords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(156,32),(1380,1164)"
+/>
+</Coords>
+<OrgCoords
+	Rotation="0"
+	Elements="0">
+<Val
+	Size="2"
+	Value="(156,32),(1380,1164)"
+/>
+</OrgCoords>
+<Preprocessors>
+<Preprocessor
+	PreprocIndex="0"
+	RtName="prepA"
+	RtType="5"
+	RtId="173688848"
+	ParentInstr="175999248"
+	InstrType="18"
+	Collapsed="0"
+	ProxyHandleRtId="0"
+	SoRtId="175999248"
+	Tag="CountPiecesA01700318-RectA-prepA"
+	ImgProcId="_CIpeThresholdExtr_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="threshold"
+	RtType="2"
+	RtId="174929696"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="128"
+/>
+</id0>
+<id1
+	RtName="below value"
+	RtType="2"
+	RtId="174934256"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id1>
+<id2
+	RtName="above value"
+	RtType="2"
+	RtId="174936384"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="255"
+/>
+</id2>
+</Params>
+</Preprocessor>
+<Preprocessor
+	PreprocIndex="1"
+	RtName="prepB"
+	RtType="5"
+	RtId="173689216"
+	ParentInstr="175999248"
+	InstrType="18"
+	Collapsed="0"
+	ProxyHandleRtId="0"
+	SoRtId="175999248"
+	Tag="CountPiecesA01700318-RectA-prepB"
+	ImgProcId="_CIpeMonoDilate_">
+<Inputs
+/>
+<Outputs
+/>
+<Params>
+<id0
+	RtName="execute times"
+	RtType="2"
+	RtId="174934864"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="2"
+/>
+</id0>
+</Params>
+</Preprocessor>
+</Preprocessors>
+<Algorithms>
+<Algorithm
+	AlgIndex="0"
+	RtName="algA"
+	RtType="5"
+	RtId="173675232"
+	ParentInstr="175999248"
+	InstrType="19"
+	Collapsed="0"
+	ProxyHandleRtId="0"
+	SoRtId="175999248"
+	Tag="CountPiecesA01700318-RectA-algA"
+	ImgProcId="_CIpeConnectivityBinary_">
+<Inputs
+/>
+<Outputs>
+<id0
+	RtId="174576480"
+	ConnVar="162318864"
+	Watch="0"
+	SpcOn="0"
+	Hidden="0"
+	Lmark="0">
+<Obj
+	Type="3"
+	Val="7"
+/>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="count: 7.00"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id0>
+<id1
+	RtId="76669744"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="6"
+	Val="487.86544799804687,672.10894775390625"
+/>
+<Annot
+	Type="1"
+	X="188"
+	Y="72"
+	Clr="0"
+	Text="centroid[0]: (487.87, 672.11)"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="2"
+	Value="487.865,672.109"
+/>
+</Annot>
+</id1>
+<id2
+	RtId="76670672"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(487.86544799804687,672.10894775390625),(426.78335571289062,429.14755249023437),(646.47906494140625,302.26205444335937),(864.9432373046875,440.34307861328125),(752.150634765625,694.670166015625),(646.72500610351562,575.84136962890625),(742.32110595703125,508.387939453125)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="2"
+	Clr="0"
+	Text="centroid[]: ((487.87, 672.11), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="487.865,672.109,426.783,429.148,646.479,302.262,864.943,440.343,752.151,694.67,646.725,575.841,742.321,508.388"
+/>
+</Annot>
+</id2>
+<id3
+	RtId="76671600"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="7351,7252,6644,6503,6452,3789,2650"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="area[]: ((7351.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id3>
+<id4
+	RtId="76672528"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="112,166,166,145,164,117,98"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="width[]: ((112.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id4>
+<id5
+	RtId="76673456"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="165,140,100,167,91,106,89"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="height[]: ((165.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id5>
+<id6
+	RtId="76674384"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="904.37469482421875,932.849853515625,878.3157958984375,894.271240234375,868.67620849609375,555.57061767578125,374.17367553710937"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="perimeter length[]: ((904.37), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id6>
+<id7
+	RtId="76675312"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="1,1,1,1,1,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="hole count[]: ((1.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id7>
+<id8
+	RtId="176489088"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(438,587),(346,359),(566,251),(789,357),(670,648),(596,524),(691,474)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="19"
+	Clr="0"
+	Text="bbox tl[]: ((438.00, 587.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="438,587,346,359,566,251,789,357,670,648,596,524,691,474"
+/>
+</Annot>
+</id8>
+<id9
+	RtId="176490016"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(549,751),(511,498),(731,350),(933,523),(833,738),(712,629),(788,562)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="36"
+	Clr="0"
+	Text="bbox br[]: ((549.00, 751.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="549,751,511,498,731,350,933,523,833,738,712,629,788,562"
+/>
+</Annot>
+</id9>
+<id10
+	RtId="176490944"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="25.776931762695313,27.963165283203125,26.990592956542969,28.709480285644531,27.202169418334961,18.310834884643555,11.118165016174316"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="elongation[]: ((25.78), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id10>
+<id11
+	RtId="176491872"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="16.887197494506836,16.104072570800781,15.689481735229492,15.050267219543457,15.400875091552734,14.384945869445801,15.438545227050781"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="fiber width[]: ((16.89), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id11>
+<id12
+	RtId="176492800"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="435.30014038085937,450.32086181640625,423.46841430664062,432.08535766601562,418.93722534179687,263.40036010742187,171.64828491210937"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="fiber length[]: ((435.30), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id12>
+<id13
+	RtId="176493728"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0.11294304579496384,0.10472350567579269,0.10822761803865433,0.10218451917171478,0.10744553059339523,0.15426091849803925,0.23785334825515747"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="form factor[]: ((0.11), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id13>
+<id14
+	RtId="176496592"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0,0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse major[]: ((0.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id14>
+<id15
+	RtId="176495664"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0,0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse minor[]: ((0.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id15>
+<id16
+	RtId="176501232"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0,0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse angle[]: ((0.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id16>
+<id17
+	RtId="176499376"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0,0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse axes ratio[]: ((0.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id17>
+<id18
+	RtId="176500304"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0,0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="ellipse roundness[]: ((0.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id18>
+<id19
+	RtId="176494736"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4098">
+<Val
+	Size="7"
+	Value="0,0,0,0,0,0,0"
+/>
+</Obj>
+<Annot
+	Type="6"
+	X="-1"
+	Y="-1"
+	Clr="0"
+	Text="feret bounding box angle[]: ((0.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="0">
+<Coord
+	Size="0"
+	Value=""
+/>
+</Annot>
+</id19>
+<id20
+	RtId="176497520"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(11160,3228),(11160,3228),(11160,3228),(11160,3228),(11160,3228),(156,32),(156,32)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="53"
+	Clr="0"
+	Text="feret bounding box center[]: ((11160.00, 3228.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="11160,3228,11160,3228,11160,3228,11160,3228,11160,3228,156,32,156,32"
+/>
+</Annot>
+</id20>
+<id21
+	RtId="176498448"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(11160,3228),(11160,3228),(11160,3228),(11160,3228),(11160,3228),(156,32),(156,32)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="70"
+	Clr="0"
+	Text="feret bounding box lt[]: ((11160.00, 3228.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="11160,3228,11160,3228,11160,3228,11160,3228,11160,3228,156,32,156,32"
+/>
+</Annot>
+</id21>
+<id22
+	RtId="176509440"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(11160,3228),(11160,3228),(11160,3228),(11160,3228),(11160,3228),(156,32),(156,32)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="87"
+	Clr="0"
+	Text="feret bounding box lr[]: ((11160.00, 3228.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="11160,3228,11160,3228,11160,3228,11160,3228,11160,3228,156,32,156,32"
+/>
+</Annot>
+</id22>
+<id23
+	RtId="176512224"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(11160,3228),(11160,3228),(11160,3228),(11160,3228),(11160,3228),(156,32),(156,32)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="104"
+	Clr="0"
+	Text="feret bounding box br[]: ((11160.00, 3228.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="11160,3228,11160,3228,11160,3228,11160,3228,11160,3228,156,32,156,32"
+/>
+</Annot>
+</id23>
+<id24
+	RtId="176502944"
+	ConnVar="0"
+	Watch="0"
+	SpcOn="0"
+	Hidden="1"
+	Lmark="0">
+<Obj
+	Type="4100">
+<Val
+	Size="7"
+	Value="(11160,3228),(11160,3228),(11160,3228),(11160,3228),(11160,3228),(156,32),(156,32)"
+/>
+</Obj>
+<Annot
+	Type="7"
+	X="2"
+	Y="121"
+	Clr="0"
+	Text="feret bounding box bl[]: ((11160.00, 3228.00), ...) [7]"
+	Display="1"
+	Highlight="0"
+	So="174938512">
+<Coord
+	Size="14"
+	Value="11160,3228,11160,3228,11160,3228,11160,3228,11160,3228,156,32,156,32"
+/>
+</Annot>
+</id24>
+</Outputs>
+<Params>
+<id0
+	RtName="black blobs"
+	RtType="2"
+	RtId="173108592"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id0>
+<id1
+	RtName="8 way"
+	RtType="2"
+	RtId="173107072"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id1>
+<id2
+	RtName="min area"
+	RtType="2"
+	RtId="173105856"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id2>
+<id3
+	RtName="max area"
+	RtType="2"
+	RtId="173109200"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="99990"
+/>
+</id3>
+<id4
+	RtName="min width"
+	RtType="2"
+	RtId="173110416"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id4>
+<id5
+	RtName="max width"
+	RtType="2"
+	RtId="173107376"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id5>
+<id6
+	RtName="min height"
+	RtType="2"
+	RtId="173109808"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id6>
+<id7
+	RtName="max height"
+	RtType="2"
+	RtId="173105552"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id7>
+<id8
+	RtName="max returned"
+	RtType="2"
+	RtId="173111328"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="20"
+/>
+</id8>
+<id9
+	RtName="ignore blobs touching borders"
+	RtType="2"
+	RtId="173106160"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id9>
+<id10
+	RtName="enable sorting"
+	RtType="2"
+	RtId="173107680"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id10>
+<id11
+	RtName="descending"
+	RtType="2"
+	RtId="173113152"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id11>
+<id12
+	RtName="sorting criteria"
+	RtType="2"
+	RtId="173108896"
+	ValType="263"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id12>
+<id13
+	RtName="enable moment-related calculations"
+	RtType="2"
+	RtId="173109504"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id13>
+<id14
+	RtName="first blob bounding box"
+	RtType="2"
+	RtId="173112848"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id14>
+<id15
+	RtName="bounding boxes"
+	RtType="2"
+	RtId="173110112"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id15>
+<id17
+	RtName="ellipse axes"
+	RtType="2"
+	RtId="173110720"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id17>
+<id18
+	RtName="labels"
+	RtType="2"
+	RtId="173111024"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id18>
+<id20
+	RtName="feret bounding boxes"
+	RtType="2"
+	RtId="173111632"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id20>
+<id21
+	RtName="enable Feret-related calculations"
+	RtType="2"
+	RtId="173111936"
+	ValType="256"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="0"
+/>
+</id21>
+<id22
+	RtName="feret angles"
+	RtType="2"
+	RtId="176519648"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="180"
+/>
+</id22>
+<id23
+	RtName="min ellipse major"
+	RtType="2"
+	RtId="176526640"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id23>
+<id24
+	RtName="max ellipse major"
+	RtType="2"
+	RtId="176524208"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id24>
+<id25
+	RtName="min ellipse minor"
+	RtType="2"
+	RtId="176523600"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id25>
+<id26
+	RtName="max ellipse minor"
+	RtType="2"
+	RtId="176525120"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id26>
+<id27
+	RtName="min ellipse angle"
+	RtType="2"
+	RtId="176526944"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="-180"
+/>
+</id27>
+<id28
+	RtName="max ellipse angle"
+	RtType="2"
+	RtId="176521168"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="180"
+/>
+</id28>
+<id29
+	RtName="min ellipse roundness"
+	RtType="2"
+	RtId="176522688"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id29>
+<id30
+	RtName="max ellipse roundness"
+	RtType="2"
+	RtId="176520864"
+	ValType="258"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="1"
+/>
+</id30>
+<id31
+	RtName="min feret width"
+	RtType="2"
+	RtId="176521472"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id31>
+<id32
+	RtName="max feret width"
+	RtType="2"
+	RtId="176521776"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id32>
+<id33
+	RtName="min feret height"
+	RtType="2"
+	RtId="176524816"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1"
+/>
+</id33>
+<id34
+	RtName="max feret height"
+	RtType="2"
+	RtId="176525424"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id34>
+<id35
+	RtName="min hole count"
+	RtType="2"
+	RtId="176522080"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="0"
+/>
+</id35>
+<id36
+	RtName="max hole count"
+	RtType="2"
+	RtId="176519344"
+	ValType="257"
+	Connected="0">
+<Obj
+	Type="2"
+	Val="1000000"
+/>
+</id36>
+</Params>
+</Algorithm>
+</Algorithms>
+<Proxy
+	RtName="[None]"
+	RtType="7"
+	RtId="162314640"
+	ValType="1028">
+<Obj
+	Type="10">
+<Val
+	HdlType="0"
+/>
+</Obj>
+</Proxy>
+</Instruction>
+<Instruction
+	RtName="scriptA"
+	RtType="5"
+	RtId="175269552"
+	ParentInstr="0"
+	InstrType="14"
+	Collapsed="0"
+	ScriptCode="/*&#xD;    Copyright 2019 © Ramón Romero @ramonromeroqro&#xD;	Description: Computer Vision, ITESM.&#xD;	V05042192000&#xD;	&#xD;	This program is free software: you can redistribute it and/or modify&#xD;    it under the terms of the GNU General Public License as published by&#xD;    the Free Software Foundation, either version 3 of the License, or&#xD;    (at your option) any later version.&#xD;    This program is distributed in the hope that it will be useful,&#xD;    but WITHOUT ANY WARRANTY; without even the implied warranty of&#xD;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&#xD;    GNU General Public License for more details.&#xD;    You should have received a copy of the GNU General Public License&#xD;    along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.&#xD;    &#xD;    Sherlock is distributed under propietary License&#xD;    Copyright © 2019 Teledyne DALSA, Inc.&#xD;    &#xD;&#xD;*/&#xD;&#xD;var a = Vars.varA;&#xD;&#xD;Vars.count=a.toString()">
+<Inputs
+/>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	FormulaId="_CAnnotText_"
+	RtName="TextA"
+	RtType="5"
+	RtId="175340400"
+	ParentInstr="0"
+	InstrType="17"
+	Collapsed="0"
+	Tag="CountPiecesA01700318-TextA">
+<Inputs>
+<id0
+	RtId="175309696"
+	Connected="0">
+<Obj
+	Type="6"
+	Val="20,20"
+/>
+</id0>
+<id1
+	RtId="175307536"
+	Connected="162319040">
+<Obj
+	Type="4"
+	Val="Text label"
+/>
+</id1>
+<id2
+	RtId="175305856"
+	Connected="0">
+<Obj
+	Type="3"
+	Val="0"
+/>
+</id2>
+<id3
+	RtId="175306096"
+	Connected="0">
+<Obj
+	Type="1"
+	Val="1"
+/>
+</id3>
+<id4
+	RtId="175307296"
+	Connected="0">
+<Obj
+	Type="4"
+	Val=""
+/>
+</id4>
+</Inputs>
+<Outputs
+/>
+<Params
+/>
+</Instruction>
+<Instruction
+	RtName="End"
+	RtType="5"
+	RtId="175338480"
+	ParentInstr="174938512"
+	InstrType="5"
+	Collapsed="0"
+	ParentSo="174938512"
+/>
+</Instructions>
+<Structure>
+<Branch
+	Parent="0">
+<Children>
+<Child
+	Id="175691008"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="175691008">
+<Children>
+<Child
+	Id="174938512"
+/>
+</Children>
+</Branch>
+<Branch
+	Parent="174938512">
+<Children>
+<Child
+	Id="175337840"
+/>
+<Child
+	Id="175999248"
+/>
+<Child
+	Id="175269552"
+/>
+<Child
+	Id="175340400"
+/>
+<Child
+	Id="175338480"
+/>
+</Children>
+</Branch>
+</Structure>
+</Sub>
+</Subroutines>
+<Watched
+/>
+</Investigation>
